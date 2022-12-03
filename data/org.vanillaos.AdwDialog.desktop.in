@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=adwdialog
-Exec=adwdialog
-Icon=org.vanillaos.AdwDialog
-Terminal=false
-Type=Application
-Categories=GTK;
-StartupNotify=true
