@@ -1,1 +1,5 @@
 /mesonbuild
+/debian/.debhelper
+/debian/adwdialog
+/debian/adwdialog.debhelper.log
+/debian/adwdialog.substvars
