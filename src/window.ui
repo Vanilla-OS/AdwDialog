@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="AdwdialogWindow" parent="AdwApplicationWindow">
+    <property name="default-width">500</property>
+    <property name="default-height">500</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <style>
+              <class name="flat" />
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="AdwStatusPage" id="status">
+            <property name="title">Title</property>
+            <property name="description">Description will be in this place.</property>
+            <property name="vexpand">true</property>
+            <child>
+              <object class="GtkBox" id="box_btns">
+                <property name="spacing">8</property>
+                <property name="halign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,0 +1,6 @@
+data/org.vanillaos.AdwDialog.desktop.in
+data/org.vanillaos.AdwDialog.appdata.xml.in
+data/org.vanillaos.AdwDialog.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
