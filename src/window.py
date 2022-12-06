@@ -31,7 +31,7 @@ class AdwdialogWindow(Adw.ApplicationWindow):
     def __init__(self, title, description, icon, dtype, **kwargs):
         super().__init__(**kwargs)
 
-        self.set_title(title)
+        self.set_title("")
         self.status.set_title(title)
         self.status.set_description(description)
 
@@ -50,14 +50,14 @@ class AdwdialogWindow(Adw.ApplicationWindow):
 
     def __build_buttons(self, dtype):
         if dtype == "info":
-            self.__add_button("Ok", 0, True)
+            self.__add_button(_("Dismiss"), 0, True)
         elif dtype == "warning":
-            self.__add_button("Ok", 0, True)
+            self.__add_button(_("Dismiss"), 0, True)
         elif dtype == "error":
-            self.__add_button("Ok", 0, True)
+            self.__add_button(_("Dismiss"), 0, True)
         elif dtype == "question":
-            self.__add_button("Yes", 0, True)
-            self.__add_button("No", 1)
+            self.__add_button(_("Yes"), 0, True)
+            self.__add_button(_("No"), 1)
 
     def __add_button(self, label, action, suggested=False):
         btn = Gtk.Button(label=label)
