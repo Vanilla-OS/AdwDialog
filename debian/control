@@ -10,7 +10,8 @@ Build-Depends:
             libadwaita-1-dev,
             gettext,
             make,
-            desktop-file-utils
+            desktop-file-utils,
+            libjpeg-dev
 Homepage: https://github.com/vanilla-os/adwdialog/
 Vcs-Browser: hhttps://github.com/vanilla-os/adwdialog
 Vcs-Git: https://github.com/vanilla-os/adwdialog.git
