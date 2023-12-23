@@ -56,8 +56,8 @@ class AdwdialogWindow(Adw.ApplicationWindow):
         elif dtype == "error":
             self.__add_button(_("Dismiss"), 0, True)
         elif dtype == "question":
-            self.__add_button(_("Yes"), 1, True)
-            self.__add_button(_("No"), 0)
+            self.__add_button(_("No"), 1)
+            self.__add_button(_("Yes"), 0, True)
 
     def __add_button(self, label, action, suggested=False):
         btn = Gtk.Button(label=label)
@@ -71,3 +71,4 @@ class AdwdialogWindow(Adw.ApplicationWindow):
 
     def __on_button_clicked(self, widget, action):
         sys.exit(action)
+
