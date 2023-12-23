@@ -37,6 +37,12 @@ class AdwdialogWindow(Adw.ApplicationWindow):
         self.default_label=default_label
         self.suggested_label=suggested_label
 
+        if self.default_label == None:
+            self.default_label = _("No")
+
+        if self.suggested_label == None:
+            self.suggested_label = _("Yes")
+
         if icon:
             self.status.set_icon_name(icon)
         elif dtype == "info":
