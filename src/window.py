@@ -28,12 +28,14 @@ class AdwdialogWindow(Adw.ApplicationWindow):
     status = Gtk.Template.Child()
     box_btns = Gtk.Template.Child()
 
-    def __init__(self, title, description, icon, dtype, **kwargs):
+    def __init__(self, title, description, icon, dtype, default_label, suggested_label, **kwargs):
         super().__init__(**kwargs)
 
         self.set_title("")
         self.status.set_title(title)
         self.status.set_description(description)
+        self.default_label=default_label
+        self.suggested_label=suggested_label
 
         if icon:
             self.status.set_icon_name(icon)
@@ -56,8 +58,8 @@ class AdwdialogWindow(Adw.ApplicationWindow):
         elif dtype == "error":
             self.__add_button(_("Dismiss"), 0, True)
         elif dtype == "question":
-            self.__add_button(_("No"), 1)
-            self.__add_button(_("Yes"), 0, True)
+            self.__add_button(self.default_label, 1)
+            self.__add_button(self.suggested_label, 0, True)
 
     def __add_button(self, label, action, suggested=False):
         btn = Gtk.Button(label=label)

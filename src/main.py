@@ -30,7 +30,12 @@ from .window import AdwdialogWindow
 class AdwdialogApplication(Adw.Application):
     """The main application singleton class."""
 
-    title, description, icon, dtype = None, None, None, None
+    title: str = None
+    description: str = None
+    icon: str = None
+    dtype: str = None
+    default_label: str = None
+    suggested_label: str = None
 
     def __init__(self):
         super().__init__(application_id='org.vanillaos.AdwDialog',
@@ -48,6 +53,10 @@ class AdwdialogApplication(Adw.Application):
                              GLib.OptionArg.STRING, 'The dialog icon', None)
         self.add_main_option('type', ord('y'), GLib.OptionFlags.NONE,
                              GLib.OptionArg.STRING, 'The dialog type', None)
+        self.add_main_option('default_label', ord('d'), GLib.OptionFlags.NONE,
+                             GLib.OptionArg.STRING, 'The dialog default label', None)
+        self.add_main_option('suggested_label', ord('s'), GLib.OptionFlags.NONE,
+                             GLib.OptionArg.STRING, 'The dialog suggested label', None)
 
     def do_command_line(self, command_line):
         """Handle command line arguments."""
@@ -60,6 +69,10 @@ class AdwdialogApplication(Adw.Application):
             self.icon = options.lookup_value('icon').get_string()
         if options.contains('type'):
             self.dtype = options.lookup_value('type').get_string()
+        if options.contains('default_label'):
+            self.default_label = options.lookup_value('default_label').get_string()
+        if options.contains('suggested_label'):
+            self.suggested_label = options.lookup_value('suggested_label').get_string()
         self.activate()
         return 0
 
@@ -77,7 +90,8 @@ class AdwdialogApplication(Adw.Application):
         if not win:
             win = AdwdialogWindow(application=self, title=self.title,
                                   description=self.description, icon=self.icon,
-                                  dtype=self.dtype)
+                                  dtype=self.dtype, default_label=self.default_label,
+                                  suggested_label=self.suggested_label)
         win.present()
 
     def create_action(self, name, callback, shortcuts=None):
