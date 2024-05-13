@@ -8,8 +8,8 @@
       <object class="GtkWindowHandle">
         <child>
           <object class="AdwStatusPage" id="status">
-            <property name="title">Title</property>
-            <property name="description">Description will be in this place.</property>
+            <property name="title" translatable="yes">Title</property>
+            <property name="description" translatable="yes">Description will be in this place.</property>
             <property name="vexpand">true</property>
             <child>
               <object class="GtkBox" id="box_btns">

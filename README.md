@@ -8,7 +8,7 @@
 
 ## Help
 
-```
+```sh
 Usage:
   adwdialog [OPTION…]
 
@@ -27,7 +27,6 @@ Application Options:
 ## Build
 
 ```bash
-meson mesonbuild
-cd mesonbuild
-ninja install
+meson setup build
+ninja -C build install
 ```
