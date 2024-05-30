@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the adwdialog package.
+# Notch Apple <Gapple1703@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: adwdialog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-13 20:05+0530\n"
+"PO-Revision-Date: 2024-05-24 08:17+0000\n"
+"Last-Translator: Notch Apple <Gapple1703@gmail.com>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
+"adwdialog/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
+
+#: data/org.vanillaos.AdwDialog.appdata.xml.in:7
+msgid "No description"
+msgstr "Không có mô tả"
+
+#: src/window.py:41
+msgid "No"
+msgstr "Không"
+
+#: src/window.py:44
+msgid "Yes"
+msgstr "Có"
+
+#: src/window.py:61 src/window.py:63 src/window.py:65
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+#: src/window.ui:11
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: src/window.ui:12
+msgid "Description will be in this place."
+msgstr "Mô tả sẽ được đặt ở đây."
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Tổng quan"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Hiển thị phím tắt"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Thoát"
