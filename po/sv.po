@@ -17,39 +17,39 @@ msgstr ""
 
 #: data/org.vanillaos.AdwDialog.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Ingen beskrivning"
 
 #: src/window.py:41
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: src/window.py:44
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: src/window.py:61 src/window.py:63 src/window.py:65
 msgid "Dismiss"
-msgstr ""
+msgstr "Avfärda"
 
 #: src/window.ui:11
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: src/window.ui:12
 msgid "Description will be in this place."
-msgstr ""
+msgstr "Beskrivning kommer att finnas på denna plats."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Allmänt"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Visa genvägar"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Avsluta"
