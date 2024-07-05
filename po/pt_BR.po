@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the adwdialog package.
+# Jose Delvani <jsdelvani@users.noreply.hosted.weblate.org>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: adwdialog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-13 20:05+0530\n"
+"PO-Revision-Date: 2024-07-05 20:42+0000\n"
+"Last-Translator: Jose Delvani <jsdelvani@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"vanilla-os/adwdialog/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: data/org.vanillaos.AdwDialog.appdata.xml.in:7
+msgid "No description"
+msgstr "Sem descrição"
+
+#: src/window.py:41
+msgid "No"
+msgstr "Não"
+
+#: src/window.py:44
+msgid "Yes"
+msgstr "Sim"
+
+#: src/window.py:61 src/window.py:63 src/window.py:65
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: src/window.ui:11
+msgid "Title"
+msgstr "Título"
+
+#: src/window.ui:12
+msgid "Description will be in this place."
+msgstr "A descrição estará neste local."
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Geral"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostrar atalhos"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Sair"
