@@ -1,0 +1,27 @@
+Source: adwdialog
+Section: utils
+Priority: optional
+Maintainer: Mirko Brombin <send@mirko.pm>
+Build-Depends: 
+            build-essential,
+            debhelper,
+            python3,
+            meson,
+            libadwaita-1-dev,
+            gettext,
+            make,
+            desktop-file-utils,
+            libjpeg-dev
+Homepage: https://github.com/vanilla-os/adwdialog/
+Vcs-Browser: hhttps://github.com/vanilla-os/adwdialog
+Vcs-Git: https://github.com/vanilla-os/adwdialog.git
+Rules-Requires-Root: no
+
+Package: adwdialog
+Architecture: any
+Depends: python3,
+         python3-gi,
+         libadwaita-1-0,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1
+Description: Display GTK4/libadwaita dialogs from terminal and scripts.
