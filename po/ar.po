@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the adwdialog package.
+# Muhammad Bahaa <muhammad.bahaa1@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: adwdialog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-13 20:05+0530\n"
+"PO-Revision-Date: 2024-07-27 16:09+0000\n"
+"Last-Translator: Muhammad Bahaa <muhammad.bahaa1@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
+"adwdialog/ar/>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: data/org.vanillaos.AdwDialog.appdata.xml.in:7
+msgid "No description"
+msgstr "لا يوجد وصف"
+
+#: src/window.py:41
+msgid "No"
+msgstr "لا"
+
+#: src/window.py:44
+msgid "Yes"
+msgstr "نعم"
+
+#: src/window.py:61 src/window.py:63 src/window.py:65
+msgid "Dismiss"
+msgstr "رفض"
+
+#: src/window.ui:11
+msgid "Title"
+msgstr "العنوان"
+
+#: src/window.ui:12
+msgid "Description will be in this place."
+msgstr "سيكون الوصف في هذا المكان."
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "عام"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "عرض الاختصارات"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "خروج"
