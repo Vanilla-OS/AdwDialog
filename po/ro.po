@@ -2,54 +2,59 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the adwdialog package.
 # supernova <driedpampas@users.noreply.hosted.weblate.org>, 2024.
+# supernova <76390419+driedpampas@users.noreply.github.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: adwdialog\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 20:05+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-07-29 01:26+0000\n"
+"Last-Translator: supernova <76390419+driedpampas@users.noreply.github.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
+"adwdialog/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.AdwDialog.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Fără descriere"
 
 #: src/window.py:41
 msgid "No"
-msgstr ""
+msgstr "Nu"
 
 #: src/window.py:44
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: src/window.py:61 src/window.py:63 src/window.py:65
 msgid "Dismiss"
-msgstr ""
+msgstr "Respinge"
 
 #: src/window.ui:11
 msgid "Title"
-msgstr ""
+msgstr "Titlu"
 
 #: src/window.ui:12
 msgid "Description will be in this place."
-msgstr ""
+msgstr "Descrierea va fi în acest loc."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Afișați comenzile rapide"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Ieși"
