@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the adwdialog package.
 # Notch Apple <Gapple1703@gmail.com>, 2024.
+# akarihito <thiendat5506@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: adwdialog\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 20:05+0530\n"
-"PO-Revision-Date: 2024-05-24 08:17+0000\n"
-"Last-Translator: Notch Apple <Gapple1703@gmail.com>\n"
+"PO-Revision-Date: 2025-05-14 18:53+0000\n"
+"Last-Translator: akarihito <thiendat5506@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
 "adwdialog/vi/>\n"
 "Language: vi\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: data/org.vanillaos.AdwDialog.appdata.xml.in:7
 msgid "No description"
@@ -50,7 +51,7 @@ msgstr "Tổng quan"
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Hiển thị phím tắt"
+msgstr "Hiện phím tắt"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
