@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the adwdialog package.
 # Niila Magga <niila@runbox.com>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: adwdialog\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 20:05+0530\n"
-"PO-Revision-Date: 2024-07-04 18:11+0000\n"
-"Last-Translator: Niila Magga <niila@runbox.com>\n"
+"PO-Revision-Date: 2025-03-11 12:18+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/vanilla-os/"
 "adwdialog/fi/>\n"
 "Language: fi\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/org.vanillaos.AdwDialog.appdata.xml.in:7
 msgid "No description"
@@ -55,4 +56,4 @@ msgstr "Näytä pikanäppäimet"
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Poistu"
